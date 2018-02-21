@@ -20,7 +20,8 @@
     "publish:minor": "npm version minor && sudo npm publish",
     "publish:major": "npm version major && sudo npm publish",
     "lint": "eslint src",
-    "audit:packages": "yarn outdated || true"
+    "audit:packages": "yarn outdated || true",
+    "test:cov": "open coverage/index.html"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
