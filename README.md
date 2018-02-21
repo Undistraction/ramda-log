@@ -1,8 +1,22 @@
 # ramda-log
 
-Simple logging funtions for Ramda
+Simple logging funtions for Ramda.
 
-## logToConsole
+## Install
+
+```
+yarn add ramda-log
+```
+
+or
+
+```
+npm install ramda-log
+```
+
+## API
+
+### logToConsole
 
 `logToConsole` will output whatever value it receives to `console.log`:
 
@@ -21,7 +35,7 @@ const result = f(0) // Logs: 'A:0', 'B:1', 'C:2', 'D:3'
 result // 4
 ```
 
-## log
+### log
 
 `log` allows you to customise where the value is sent - for example you could route it to a logger. It is used by `logToConsole`:
 
