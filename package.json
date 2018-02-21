@@ -1,6 +1,6 @@
 {
   "name": "ramda-log",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple log functions for ramda",
   "main": "lib/index.js",
   "repository": "https://Undistraction@github.com/Undistraction/ramda-log.git",
