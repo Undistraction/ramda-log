@@ -2,7 +2,7 @@
   "name": "ramda-log",
   "version": "0.0.2",
   "description": "Simple log functions for ramda",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://Undistraction@github.com/Undistraction/ramda-log.git",
   "author": "Pedr Browne <pedr.browne@gmail.com>",
   "license": "MIT",
