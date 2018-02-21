@@ -11,6 +11,7 @@ script:
   - node --version
   - yarn --version
   - yarn run lint
+  - yarn run securityCheck
   - yarn run test:noWatch
   - codecov
   - yarn run build
